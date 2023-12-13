@@ -5,6 +5,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
+      {/* page layout that effects ALL urls can be placed here */}
       <NavBar />
       <body>
         <Main />
