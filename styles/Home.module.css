@@ -227,3 +227,7 @@
     transform: rotate(0deg);
   }
 }
+
+.show{
+  border: 2px solid red;
+}

@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
+import '@/styles/Home.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,8 +14,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1 id='home'>Kylie&apos;s Portfolio</h1>
-      <div id='about'>
+      <h1 id='top'>Kylie&apos;s Portfolio</h1>
+      <div id='about' className="show">
         <h2>About Me</h2>
 
         <p style={{ maxWidth:650}}>
@@ -30,6 +30,44 @@ export default function Home() {
           height={300}
         />
       </div>
+
+      <div id='skills'>
+        <h2>Skills</h2>
+        <ul>
+          <li>JavaScript</li>
+          <li>CSS</li>
+          <li>HTML</li>
+          <li>Python</li>
+          <li>Java </li>
+          <li>C++</li>
+          <li>C</li>
+          <li>React </li>
+          <li>Node.js</li>
+          <li>Express.js</li>
+          <li>SQL</li>
+          <li>Postgresql </li>
+          <li>Mongoose </li>
+          <li>Django </li>
+          <li>Next.js</li>
+          <li>Git</li>
+          <li>GitHub</li>
+          <li>MathLab </li>
+          <li>MongoDB </li>
+          <li>EJS</li>
+          <li>TypeScript</li>
+        </ul>
+        <p>Work in progress</p>
+      </div>
+
+      <div id='projects'>
+        <h2>Projects</h2>
+        <p>Work in progress</p>
+      </div>
+
+      <div id='contacts'>
+        <p>Work in progress</p>
+      </div>
+
     </>
   )
 }
