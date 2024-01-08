@@ -12,7 +12,7 @@ export default function About(){
 
         <p> work in progress </p>
 
-        <img src="/headShot.png" alt="cool pic"/>
+        {/* <img src="/headShot.png" alt="cool pic"/> */}
 
         {/* <Image 
                 src="/headshot.png"

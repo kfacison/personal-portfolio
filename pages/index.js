@@ -15,7 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <h1 id='top'>Kylie&apos;s Portfolio</h1>
-      <div id='about' className="show">
+      <div id='about' className="">
         <h2>About Me</h2>
 
         <p style={{ maxWidth:650}}>

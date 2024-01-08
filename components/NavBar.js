@@ -1,35 +1,30 @@
 // built in components from next.js
 // self-referencial links us the Link component
 import Link from "next/link"
+import "@/styles/Home.module.css"
 
 export default function NavBar(){
     return (
         <>
-        <style jsx>{`
-            .navBar{
-                color: red;
-                border: 2px solid red;
-            }
-        `}</style>
         <nav className="navBar">
             &nbsp;
-            <Link href="#top">Top</Link>
+            <Link className="link" href="#">Top</Link>
             &nbsp;
-            |
+            
             &nbsp;
-            <Link href="#about">About</Link>
+            <Link className="link" href="#about">About</Link>
             &nbsp;
-            |
+            
             &nbsp;
-            <Link href="#skills">Skills</Link>
+            <Link className="link" href="#skills">Skills</Link>
             &nbsp;
-            |
+            
             &nbsp;
-            <Link href="#projects">Projects</Link>
+            <Link className="link" href="#projects">Projects</Link>
             &nbsp;
-            |
+            
             &nbsp;
-            <Link href="#contacts">Contacts</Link>
+            <Link className="link" href="#contacts">Contacts</Link>
             &nbsp;
             
         </nav>
