@@ -9,7 +9,7 @@
   /* making a theme */
   --bg-color1: #920539;
   --bg-color2: #C096B0;
-  --ft-color1: black;
+  --ft-color1: #333;
   --ft-color2: white;
 
 }
@@ -56,7 +56,6 @@ header{
 
 #about{
   display: flex;
-  /* border: 2px solid var(--bg-color2); */
   border-radius: 50px;
   height: 500px;
   margin: 50px 0;
@@ -68,6 +67,7 @@ header{
 
 #about >p{
   padding: 25px;
+  font-size: larger;
 }
 
 #skills >h2{
@@ -79,11 +79,12 @@ header{
   padding: 5px;
   border-radius: 50px;
   text-align: center;
+  font-size: larger;
 }
 
 #skills >p:hover{
-  border: 2px solid black;
-  color: black;
+  border: 2px solid var(--ft-color1);
+  color: var(--ft-color1);
   cursor: default;
 }
 
@@ -104,14 +105,47 @@ header{
 }
 
 #projects{
-  border: 2px solid red;
+  display: grid;
   height: 500px;
   margin: 50px 0;
   padding: 50px 0;
+  justify-content: space-evenly;
+}
+#projects>h2{
+  /* padding-left: 195px; */
+}
+
+#projects>#preview{
+  align-self: center;
+}
+
+#preview >#dec{
+  grid-area: dec;
+}
+/* #preview >h3{
+  grid-area: title;
+} */
+/* #preview >p{
+  grid-area: dec;
+} */
+#preview >image{
+  grid-area: img;
+}
+#preview>#connectLink{
+  grid-area: link;
+}
+
+#preview{
+  display: grid;
+  grid-template-areas: 
+  "dec img"
+  "dec link";
 }
 
 #contacts{
-  border: 2px solid red;
+  display: grid;
+  justify-content: space-evenly;
+  background-color: var(--bg-color2);
   height: 500px;
   margin: 50px 0;
   padding: 50px 0;

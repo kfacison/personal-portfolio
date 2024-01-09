@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import { Inter } from 'next/font/google'
 import '@/styles/Home.module.css'
 
@@ -15,8 +16,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header id='top'>
-        {/* Kylie Facison == <small>Full Stack Software Developer</small>     */}
-        <h1>Kylie Facison == Full-Stack Software Developer</h1>
+        {/* Kylie Facison === <small>Full Stack Software Developer</small>     */}
+        <h1>Kylie Facison = Full-Stack Software Developer</h1>
       </header>
 
       <div id='about'>
@@ -61,7 +62,24 @@ export default function Home() {
 
       <div id='projects'>
         <h2>Projects</h2>
-        <p>Work in progress</p>
+        <div id='preview'>
+          <span id='dec'>
+          <h3>Yahtzee - Browser Game</h3>
+          <p style={{ maxWidth:500}}>
+            One of the first project i completed 
+          </p>
+          </span>
+          <Image 
+          src="/YahtzeePreview.png" 
+          alt="Yahtzee Screenshot" 
+          width={450}
+          height={239}
+        />
+        <span id='connectLink'>
+        <Link href='https://github.com/kfacison/yahtzee_project1' target="_blank">GitHub</Link>
+        <Link href='https://kfacison.github.io/yahtzee_project1/' target="_blank">Play Game here</Link>
+        </span>
+        </div>
       </div>
 
       <div id='contacts'>
