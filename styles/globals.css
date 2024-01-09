@@ -47,7 +47,38 @@ body {
   color: black;
 }
 
+header{
+  padding-top: 50px;
+  font-size: 3rem;
+}
 
-h1 {
-  font-size: 4.5rem;
+#about{
+  display: flex;
+  border: 2px solid red;
+  height: 500px;
+  margin: 50px 0;
+  padding: 50px 0;
+}
+
+#skills{
+  border: 2px solid red;
+  height: 500px;
+  width: 100%;
+  margin: 50px 0;
+  padding: 50px 0;
+  background-color: var(--bg-color2);
+}
+
+#projects{
+  border: 2px solid red;
+  height: 500px;
+  margin: 50px 0;
+  padding: 50px 0;
+}
+
+#contacts{
+  border: 2px solid red;
+  height: 500px;
+  margin: 50px 0;
+  padding: 50px 0;
 }

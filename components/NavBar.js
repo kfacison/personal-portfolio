@@ -8,11 +8,7 @@ export default function NavBar(){
         <>
         <nav className="navBar">
             &nbsp;
-            <Link className="link" href="#">Top</Link>
-            &nbsp;
-            
-            &nbsp;
-            <Link className="link" href="#about">About</Link>
+            <Link className="link" href="#">About</Link>
             &nbsp;
             
             &nbsp;

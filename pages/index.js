@@ -14,21 +14,25 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1 id='top'>Kylie&apos;s Portfolio</h1>
-      <div id='about' className="">
-        <h2>About Me</h2>
+      <header id='top'>
+        {/* <hgroup>
+          <h1>Kylie Facison ==</h1><p></p>
+          <p>Full Stack Software Developer</p>
+        </hgroup> */}
+        Kylie Facison === <small>Full Stack Software Developer</small>    
+      </header>
 
-        <p style={{ maxWidth:650}}>
+      <div id='about'>
+        <Image 
+          src="/headShot.png" 
+          alt="Kylie Facison Headshot" 
+          width={400}
+          height={300}
+        />
+        <p style={{ maxWidth:500}}>
           As a Full-Stack developer, I love problem-solving, and the challenge of building something from scratch.
           My open-minded nature and capacity to see various viewpoints help me problem-solve and troubleshoot when coding. 
           In the future, I want to contribute to the tech industry&apos;s diversity so that other people can have equal opportunities. </p>
-
-        <Image 
-          src="/headShot.png" 
-          alt="cool pic"
-          width={350}
-          height={300}
-        />
       </div>
 
       <div id='skills'>
@@ -56,7 +60,6 @@ export default function Home() {
           <li>EJS</li>
           <li>TypeScript</li>
         </ul>
-        <p>Work in progress</p>
       </div>
 
       <div id='projects'>
@@ -65,6 +68,7 @@ export default function Home() {
       </div>
 
       <div id='contacts'>
+        <h2>contacts</h2>
         <p>Work in progress</p>
       </div>
 
