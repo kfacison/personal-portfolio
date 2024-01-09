@@ -15,51 +15,48 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header id='top'>
-        {/* <hgroup>
-          <h1>Kylie Facison ==</h1><p></p>
-          <p>Full Stack Software Developer</p>
-        </hgroup> */}
-        Kylie Facison === <small>Full Stack Software Developer</small>    
+        {/* Kylie Facison == <small>Full Stack Software Developer</small>     */}
+        <h1>Kylie Facison == Full-Stack Software Developer</h1>
       </header>
 
       <div id='about'>
         <Image 
-          src="/headShot.png" 
+          src="/headShotSmall.png" 
           alt="Kylie Facison Headshot" 
-          width={400}
-          height={300}
+          width={350}
+          height={285}
         />
         <p style={{ maxWidth:500}}>
           As a Full-Stack developer, I love problem-solving, and the challenge of building something from scratch.
           My open-minded nature and capacity to see various viewpoints help me problem-solve and troubleshoot when coding. 
-          In the future, I want to contribute to the tech industry&apos;s diversity so that other people can have equal opportunities. </p>
+          In the future, I want to contribute to the tech industry&apos;s diversity so that other people can have equal opportunities.
+        </p>
       </div>
 
       <div id='skills'>
         <h2>Skills</h2>
-        <ul>
-          <li>JavaScript</li>
-          <li>CSS</li>
-          <li>HTML</li>
-          <li>Python</li>
-          <li>Java </li>
-          <li>C++</li>
-          <li>C</li>
-          <li>React </li>
-          <li>Node.js</li>
-          <li>Express.js</li>
-          <li>SQL</li>
-          <li>Postgresql </li>
-          <li>Mongoose </li>
-          <li>Django </li>
-          <li>Next.js</li>
-          <li>Git</li>
-          <li>GitHub</li>
-          <li>MathLab </li>
-          <li>MongoDB </li>
-          <li>EJS</li>
-          <li>TypeScript</li>
-        </ul>
+        
+        <p>JavaScript</p>
+        <p>CSS</p>
+        <p>HTML</p>
+        <p>Python</p>
+        <p>TypeScript</p>
+        <p>Java </p>
+        <p>C++</p>
+        <p>C</p>
+        <p>React </p>
+        <p>Node.js</p>
+        <p>Express.js</p>
+        <p>Next.js</p>
+        <p>SQL</p>
+        <p>Postgresql </p>
+        <p>Mongoose </p>
+        <p>Django </p>
+        <p>MongoDB </p>
+        <p>Git</p>
+        <p>GitHub</p>
+        <p>MathLab </p>
+        
       </div>
 
       <div id='projects'>

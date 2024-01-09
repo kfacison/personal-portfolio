@@ -7,7 +7,7 @@
 
 :root {
   /* making a theme */
-  --bg-color1: #890346;
+  --bg-color1: #920539;
   --bg-color2: #C096B0;
   --ft-color1: black;
   --ft-color2: white;
@@ -48,25 +48,59 @@ body {
 }
 
 header{
-  padding-top: 50px;
-  font-size: 3rem;
+  display: flex;
+  padding-top: 75px;
+  /* font-size: 3rem; */
+  justify-content: center;
 }
 
 #about{
   display: flex;
-  border: 2px solid red;
+  /* border: 2px solid var(--bg-color2); */
+  border-radius: 50px;
   height: 500px;
   margin: 50px 0;
   padding: 50px 0;
+  align-items: center;
+  justify-content: center;
+  min-width: 98.8vw;
+}
+
+#about >p{
+  padding: 25px;
+}
+
+#skills >h2{
+  grid-area: header;
+}
+
+#skills >p{
+  border: 2px solid white;
+  padding: 5px;
+  border-radius: 50px;
+  text-align: center;
+}
+
+#skills >p:hover{
+  border: 2px solid black;
+  color: black;
+  cursor: default;
 }
 
 #skills{
-  border: 2px solid red;
+  display: grid;
+  grid-auto-rows: 50px;
+  grid-template-areas: 
+  "header header header header"
+  "main main main main"
+  "main main main main";
   height: 500px;
-  width: 100%;
+  min-width: 98.8vw;
   margin: 50px 0;
   padding: 50px 0;
   background-color: var(--bg-color2);
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 #projects{
