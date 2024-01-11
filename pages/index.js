@@ -66,24 +66,42 @@ export default function Home() {
           <span id='dec'>
           <h3>Yahtzee - Browser Game</h3>
           <p style={{ maxWidth:500}}>
-            One of the first project i completed 
+          A dice game where you try to roll certain combinations of numbers with five dice. The project was made with HTML, CSS, and JavaScript.
           </p>
           </span>
           <Image 
           src="/YahtzeePreview.png" 
           alt="Yahtzee Screenshot" 
-          width={450}
-          height={239}
+          width={600}
+          height={285}
         />
         <span id='connectLink'>
         <Link href='https://github.com/kfacison/yahtzee_project1' target="_blank">GitHub</Link>
-        <Link href='https://kfacison.github.io/yahtzee_project1/' target="_blank">Play Game here</Link>
+        <Link href='https://kfacison.github.io/yahtzee_project1/' target="_blank">Play Game</Link>
+        </span>
+        </div>
+        <div id='preview'>
+          <span id='dec'>
+          <h3>Yahtzee - Browser Game</h3>
+          <p style={{ maxWidth:500}}>
+          A dice game where you try to roll certain combinations of numbers with five dice. The project was made with HTML, CSS, and JavaScript.
+          </p>
+          </span>
+          <Image 
+          src="/YahtzeePreview.png" 
+          alt="Yahtzee Screenshot" 
+          width={600}
+          height={285}
+        />
+        <span id='connectLink'>
+        <Link href='https://github.com/kfacison/yahtzee_project1' target="_blank">GitHub</Link>
+        <Link href='https://kfacison.github.io/yahtzee_project1/' target="_blank">Play Game</Link>
         </span>
         </div>
       </div>
 
       <div id='contacts'>
-        <h2>contacts</h2>
+        <h2>Contacts</h2>
         <p>Work in progress</p>
       </div>
 

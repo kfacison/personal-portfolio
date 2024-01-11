@@ -95,7 +95,7 @@ header{
   "header header header header"
   "main main main main"
   "main main main main";
-  height: 500px;
+  /* height: 500px; */
   min-width: 98.8vw;
   margin: 50px 0;
   padding: 50px 0;
@@ -106,7 +106,7 @@ header{
 
 #projects{
   display: grid;
-  height: 500px;
+  /* height: 500px; */
   margin: 50px 0;
   padding: 50px 0;
   justify-content: space-evenly;
@@ -133,6 +133,16 @@ header{
 }
 #preview>#connectLink{
   grid-area: link;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 0;
+}
+#preview>#connectLink>a{
+  color: white;
+}
+#preview>#connectLink>a:hover{
+  color: var(--ft-color1);
+  background-color: white;
 }
 
 #preview{
