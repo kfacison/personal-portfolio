@@ -121,28 +121,23 @@ header{
 
 #preview >#dec{
   grid-area: dec;
+  padding: 10px;
 }
-/* #preview >h3{
-  grid-area: title;
-} */
-/* #preview >p{
-  grid-area: dec;
-} */
+
 #preview >image{
   grid-area: img;
 }
-#preview>#connectLink{
+#preview>#preLink{
   grid-area: link;
   display: flex;
   justify-content: space-evenly;
   padding: 10px 0;
 }
-#preview>#connectLink>a{
+#preview>#preLink>a{
   color: white;
 }
-#preview>#connectLink>a:hover{
-  color: var(--ft-color1);
-  background-color: white;
+#preview>#preLink>a:hover{
+  color: var(--bg-color2);
 }
 
 #preview{
@@ -150,13 +145,27 @@ header{
   grid-template-areas: 
   "dec img"
   "dec link";
+  padding: 70px 0;
 }
 
 #contacts{
-  display: grid;
-  justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: var(--bg-color2);
   height: 500px;
   margin: 50px 0;
   padding: 50px 0;
+}
+
+#contactLink{
+  display: flex;
+  padding: 50px 0;
+}
+
+#contactLink>div{
+  padding: 0 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

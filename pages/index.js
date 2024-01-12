@@ -22,7 +22,7 @@ export default function Home() {
 
       <div id='about'>
         <Image 
-          src="/headShotSmall.png" 
+          src="/personal/headShotSmall.png" 
           alt="Kylie Facison Headshot" 
           width={350}
           height={285}
@@ -62,47 +62,98 @@ export default function Home() {
 
       <div id='projects'>
         <h2>Projects</h2>
+
         <div id='preview'>
           <span id='dec'>
-          <h3>Yahtzee - Browser Game</h3>
-          <p style={{ maxWidth:500}}>
+          <h3>Yahtzee</h3>
+          <p style={{ maxWidth:365}}>
           A dice game where you try to roll certain combinations of numbers with five dice. The project was made with HTML, CSS, and JavaScript.
           </p>
           </span>
           <Image 
-          src="/YahtzeePreview.png" 
+          src="/screenShots/YahtzeePreview.png" 
           alt="Yahtzee Screenshot" 
           width={600}
           height={285}
-        />
-        <span id='connectLink'>
-        <Link href='https://github.com/kfacison/yahtzee_project1' target="_blank">GitHub</Link>
-        <Link href='https://kfacison.github.io/yahtzee_project1/' target="_blank">Play Game</Link>
-        </span>
+          />
+          <span id='preLink'>
+          <Link href='https://github.com/kfacison/yahtzee_project1' target="_blank">GitHub</Link>
+          <Link href='https://kfacison.github.io/yahtzee_project1/' target="_blank">Play Game</Link>
+          </span>
         </div>
+
         <div id='preview'>
           <span id='dec'>
-          <h3>Yahtzee - Browser Game</h3>
-          <p style={{ maxWidth:500}}>
-          A dice game where you try to roll certain combinations of numbers with five dice. The project was made with HTML, CSS, and JavaScript.
+          <h3>Recipe Repo</h3>
+          <p style={{ maxWidth:365}}>
+          A full-stack application where users can store recipes. The App has Google oAuth and CRUD, made with Node, Express, and MongoDB.
           </p>
           </span>
           <Image 
-          src="/YahtzeePreview.png" 
-          alt="Yahtzee Screenshot" 
+          src="/screenShots/RecipeRepoPreview.png" 
+          alt="Recipe Repo Screenshot" 
           width={600}
           height={285}
-        />
-        <span id='connectLink'>
-        <Link href='https://github.com/kfacison/yahtzee_project1' target="_blank">GitHub</Link>
-        <Link href='https://kfacison.github.io/yahtzee_project1/' target="_blank">Play Game</Link>
-        </span>
+          />
+          <span id='preLink'>
+          <Link href='https://github.com/kfacison/Recipe_Repo_Project_2' target="_blank">GitHub</Link>
+          <Link href='https://reciperepo-4c11628bb5b7.herokuapp.com/' target="_blank">Visit Site</Link>
+          </span>
         </div>
+
+        <div id='preview'>
+          <span id='dec'>
+          <h3>SpaceBook</h3>
+          <p style={{ maxWidth:365}}>
+          A social networking app where users can sign in, make posts, and connect with other users. The app uses a MERN Stack developed with the contribution of fellow developers.
+          </p>
+          </span>
+          <Image 
+          src="/screenShots/SpaceBookPreview.png" 
+          alt="SpaceBook Screenshot" 
+          width={600}
+          height={285}
+          />
+          <span id='preLink'>
+          <Link href='https://github.com/kfacison/spaceBook-P3' target="_blank">GitHub</Link>
+          <Link href='https://space-book-5ba0b58adc3c.herokuapp.com/' target="_blank">Play Game</Link>
+          </span>
+        </div>
+
       </div>
 
       <div id='contacts'>
         <h2>Contacts</h2>
-        <p>Work in progress</p>
+        <p>Email: kfacison1998@gmail.com</p>
+        <div id='contactLink'>
+          <div>
+          <Image 
+          src="/icons/github-mark.png" 
+          alt="GitHub Icon" 
+          width={75}
+          height={75}
+          />
+          <Link href='https://github.com/kfacison' target="_blank">GitHub</Link>
+          </div>
+          <div>
+          <Image 
+          src="/icons/LI-In-Bug.png" 
+          alt="LinkedIn Icon" 
+          width={75}
+          height={75}
+          />
+          <Link href='https://www.linkedin.com/in/kyliefacison1998' target="_blank">LinkedIn</Link>
+          </div>
+          <div>
+          <Image 
+          src="/icons/resume-7-256.png" 
+          alt="Resume Icon" 
+          width={75}
+          height={75}
+          />
+          <Link href='/personal/Kylie_Facison_Resume 2.1.1(2024).pdf' target="_blank">Resume</Link>
+          </div>
+        </div>
       </div>
 
     </>
