@@ -127,31 +127,39 @@ export default function Home() {
         <p>Email: kfacison1998@gmail.com</p>
         <div id='contactLink'>
           <div>
-          <Image 
-          src="/icons/github-mark.png" 
-          alt="GitHub Icon" 
-          width={75}
-          height={75}
-          />
-          <Link href='https://github.com/kfacison' target="_blank">GitHub</Link>
+            <Link href='https://github.com/kfacison' target="_blank">
+              <Image 
+              src="/icons/github-mark.png" 
+              alt="GitHub Icon" 
+              width={75}
+              height={75}
+              />
+              GitHub
+            </Link>
           </div>
+
           <div>
-          <Image 
-          src="/icons/LI-In-Bug.png" 
-          alt="LinkedIn Icon" 
-          width={75}
-          height={75}
-          />
-          <Link href='https://www.linkedin.com/in/kyliefacison1998' target="_blank">LinkedIn</Link>
+            <Link href='https://www.linkedin.com/in/kyliefacison1998' target="_blank">
+              <Image 
+              src="/icons/linkedin.png" 
+              alt="LinkedIn Icon" 
+              width={75}
+              height={75}
+              />
+              LinkedIn
+            </Link>
           </div>
+
           <div>
-          <Image 
-          src="/icons/resume-7-256.png" 
-          alt="Resume Icon" 
-          width={75}
-          height={75}
-          />
-          <Link href='/personal/Kylie_Facison_Resume 2.1.1(2024).pdf' target="_blank">Resume</Link>
+            <Link href='/personal/Kylie_Facison_Resume 2.1.1(2024).pdf' target="_blank">
+            <Image 
+            src="/icons/resume-7-256.png" 
+            alt="Resume Icon" 
+            width={75}
+            height={75}
+            />
+              Resume
+            </Link>
           </div>
         </div>
       </div>
