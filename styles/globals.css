@@ -22,7 +22,7 @@ body {
   align-items: center;
 }
 
-.navBar{
+#navBar{
   display: flex;
   justify-content: space-between;
   background-color: #333; /* Black background color */
@@ -33,7 +33,13 @@ body {
   transition: top 0.3s; /* Transition effect when sliding down (and up) */
 }
 
-.navBar a {
+@media (min-width: 701px) and (max-width: 1120px) {
+  body {
+    background-color: greenyellow;
+  }
+}
+
+#navBar a {
   float: left;
   /* display: block; */
   color: white;
@@ -42,7 +48,7 @@ body {
   text-decoration: none;
 }
 
-.navBar a:hover {
+#navBar a:hover {
   background-color: #ddd;
   color: black;
 }

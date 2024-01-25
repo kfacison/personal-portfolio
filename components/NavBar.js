@@ -1,12 +1,18 @@
 // built in components from next.js
 // self-referencial links us the Link component
 import Link from "next/link"
-import "@/styles/Home.module.css"
+import "@/styles/globals.css"
+import { Mulish } from 'next/font/google'
+
+const mulish = Mulish({
+    subsets: ['latin'],
+    weight: ['400','700'],
+})
 
 export default function NavBar(){
     return (
         <>
-        <nav className="navBar">
+        <nav id="navBar" className={mulish.className}>
             &nbsp;
             <Link className="link" href="#">About</Link>
             &nbsp;
