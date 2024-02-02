@@ -35,8 +35,9 @@ export default function Home() {
       </div>
 
       <div id='skills'>
+        <div>
         <h2>Skills</h2>
-        
+
         <p>JavaScript</p>
         <p>CSS</p>
         <p>HTML</p>
@@ -57,7 +58,7 @@ export default function Home() {
         <p>Git</p>
         <p>GitHub</p>
         <p>MathLab </p>
-        
+        </div>
       </div>
 
       <div id='projects'>

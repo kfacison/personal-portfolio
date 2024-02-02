@@ -33,15 +33,8 @@ body {
   transition: top 0.3s; /* Transition effect when sliding down (and up) */
 }
 
-@media (min-width: 701px) and (max-width: 1120px) {
-  body {
-    background-color: greenyellow;
-  }
-}
-
 #navBar a {
   float: left;
-  /* display: block; */
   color: white;
   text-align: center;
   padding: 15px;
@@ -56,7 +49,6 @@ body {
 header{
   display: flex;
   padding-top: 75px;
-  /* font-size: 3rem; */
   justify-content: center;
 }
 
@@ -76,11 +68,17 @@ header{
   font-size: larger;
 }
 
-#skills >h2{
+#skills{
+  display: flex;
+  background-color: var(--bg-color2);
+  justify-content: center;
+}
+
+#skills >div>h2{
   grid-area: header;
 }
 
-#skills >p{
+#skills >div>p{
   border: 2px solid white;
   padding: 5px;
   border-radius: 50px;
@@ -88,20 +86,19 @@ header{
   font-size: larger;
 }
 
-#skills >p:hover{
+#skills >div>p:hover{
   border: 2px solid var(--ft-color1);
   color: var(--ft-color1);
   cursor: default;
 }
 
-#skills{
+#skills>div{
   display: grid;
   grid-auto-rows: 50px;
   grid-template-areas: 
   "header header header header"
   "main main main main"
   "main main main main";
-  /* height: 500px; */
   min-width: 98.8vw;
   margin: 50px 0;
   padding: 50px 0;
@@ -111,16 +108,11 @@ header{
 }
 
 #projects{
-  display: grid;
-  /* height: 500px; */
-  margin: 50px 0;
-  padding: 50px 0;
-  justify-content: space-evenly;
-  justify-items: center;
+  display: flex;
+  flex-direction: column;
 }
 #projects>h2{
-  /* padding-left: 195px; */
-  width: 1304px;
+  padding-left: 148px;
 }
 
 #projects>#preview{
@@ -186,4 +178,23 @@ header{
 }
 #contactLink>div>a:hover{
   color: var(--ft-color1);
+}
+
+@media (max-width: 1000px) {
+  body {
+    background-color: greenyellow;
+  }
+  #about{
+    flex-direction: column;
+  }
+  #skills{
+    
+  }
+  
+}
+
+@media (max-width: 750px) {
+  body {
+    background-color: forestgreen;
+  }
 }
