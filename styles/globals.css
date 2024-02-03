@@ -11,7 +11,6 @@
   --bg-color2: #C096B0;
   --ft-color1: #333;
   --ft-color2: white;
-
 }
 
 body {
@@ -19,7 +18,10 @@ body {
   color: var(--ft-color2);
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center;*/
+  margin: 0;
+  
+  overflow-x: hidden;
 }
 
 #navBar{
@@ -30,7 +32,7 @@ body {
   top: 0; /* Stay on top */
   width: 100%; /* Full width */
   height: 50px;
-  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  max-width: 100%;
 }
 
 #navBar a {
@@ -56,8 +58,6 @@ header{
   display: flex;
   border-radius: 50px;
   height: 500px;
-  margin: 50px 0;
-  padding: 50px 0;
   align-items: center;
   justify-content: center;
   min-width: 98.8vw;
@@ -72,10 +72,11 @@ header{
   display: flex;
   background-color: var(--bg-color2);
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
-
-#skills >div>h2{
-  grid-area: header;
+#skills>h2{
+  padding-top: 25px;
 }
 
 #skills >div>p{
@@ -101,7 +102,6 @@ header{
   "main main main main";
   min-width: 98.8vw;
   margin: 50px 0;
-  padding: 50px 0;
   background-color: var(--bg-color2);
   align-items: center;
   justify-content: space-evenly;
@@ -110,9 +110,11 @@ header{
 #projects{
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
+
 #projects>h2{
-  padding-left: 148px;
+  padding-top: 25px;
 }
 
 #projects>#preview{
@@ -153,9 +155,8 @@ header{
   flex-direction: column;
   align-items: center;
   background-color: var(--bg-color2);
-  height: 500px;
+  height: 400px;
   margin: 50px 0;
-  padding: 50px 0;
 }
 
 #contactLink{
@@ -182,19 +183,44 @@ header{
 
 @media (max-width: 1000px) {
   body {
-    background-color: greenyellow;
+    /* background-color: navy; */
   }
   #about{
     flex-direction: column;
+    margin: 25px 0;
   }
-  #skills{
-    
+  #projects>#preview{
+    display: flex;
+    flex-direction: column;
   }
-  
+  #projects>#preview>#dec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
 }
 
 @media (max-width: 750px) {
   body {
-    background-color: forestgreen;
+    /* background-color: forestgreen; */
+    align-items: normal;
+  }
+  header{
+  padding: 50px 0;
+  text-align: center;
+  }
+  #skills>div>p{
+    font-size: 15px;
+  }
+  #preview >img{
+    width: 90%;
+    align-self: center;
+    object-fit: scale-down;
+  }
+  #dec>h3{
+    padding-right: 15px;
+  }
+  #contactLink>div{
+    padding: 0 25px;
   }
 }
