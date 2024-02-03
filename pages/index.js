@@ -117,7 +117,7 @@ export default function Home() {
           />
           <span id='preLink'>
           <Link href='https://github.com/kfacison/spaceBook-P3' target="_blank">GitHub</Link>
-          <Link href='https://space-book-5ba0b58adc3c.herokuapp.com/' target="_blank">Play Game</Link>
+          <Link href='https://space-book-5ba0b58adc3c.herokuapp.com/' target="_blank">Visit Site</Link>
           </span>
         </div>
 
