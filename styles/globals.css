@@ -66,6 +66,10 @@ header{
 
 header>h1{
   margin-bottom: 0px;
+  font-weight: 600;
+}
+header>h2{
+  font-weight: 500;
 }
 
 #about{
