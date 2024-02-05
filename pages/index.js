@@ -18,7 +18,9 @@ export default function Home() {
       </Head>
       <header id='top'>
         {/* Kylie Facison === <small>Full Stack Software Developer</small>     */}
-        <h1>Kylie Facison = Full-Stack Software Developer</h1>
+        <h1>Kylie Facison</h1>
+        <hr class="separator" />
+        <h2>Full-Stack Software Developer</h2>
       </header>
 
       <div id='about'>
@@ -130,7 +132,7 @@ export default function Home() {
           <div>
             <Link href='https://github.com/kfacison' target="_blank">
               <Image 
-              src="/icons/github-mark.png" 
+              src="/icons/github-mark-white.png" 
               alt="GitHub Icon" 
               width={75}
               height={75}
@@ -142,7 +144,7 @@ export default function Home() {
           <div>
             <Link href='https://www.linkedin.com/in/kyliefacison1998' target="_blank">
               <Image 
-              src="/icons/linkedin.png" 
+              src="/icons/linkedin-white.png" 
               alt="LinkedIn Icon" 
               width={75}
               height={75}
@@ -154,9 +156,9 @@ export default function Home() {
           <div>
             <Link href='/personal/Kylie_Facison_Resume 2.1.1(2024).pdf' target="_blank">
             <Image 
-            src="/icons/resume-7-256.png" 
+            src="/icons/resume-2-white.png" 
             alt="Resume Icon" 
-            width={75}
+            width={55}
             height={75}
             />
               Resume

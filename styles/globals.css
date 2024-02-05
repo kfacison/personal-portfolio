@@ -7,10 +7,11 @@
 
 :root {
   /* making a theme */
-  --bg-color1: #920539;
-  --bg-color2: #C096B0;
-  --ft-color1: #333;
-  --ft-color2: white;
+  --bg-color1: #F8E3EC;
+  --bg-color2: #A76A86;
+  --bg-color3: #920539;
+  --ft-color1: white;
+  --ft-color2: #333;
 }
 
 body {
@@ -24,23 +25,31 @@ body {
   overflow-x: hidden;
 }
 
+.separator {
+  width: 270px;
+  border-top: 3px solid var(--bg-color3);
+}
+
 #navBar{
   display: flex;
   justify-content: space-between;
-  background-color: #333; /* Black background color */
+  background-color: var(--ft-color1); /* Black background color */
   position: fixed; /* Make it stick/fixed */
   top: 0; /* Stay on top */
   width: 100%; /* Full width */
   height: 50px;
   max-width: 100%;
+  opacity: .70;
 }
 
 #navBar a {
   float: left;
-  color: white;
+  color: var(--ft-color2);
   text-align: center;
   padding: 15px;
   text-decoration: none;
+  font-size: large;
+  font-weight: bolder;
 }
 
 #navBar a:hover {
@@ -50,8 +59,13 @@ body {
 
 header{
   display: flex;
+  flex-direction: column;
+  align-items: center;
   padding-top: 75px;
-  justify-content: center;
+}
+
+header>h1{
+  margin-bottom: 0px;
 }
 
 #about{
@@ -77,19 +91,22 @@ header{
 }
 #skills>h2{
   padding-top: 25px;
+  color: var(--ft-color1);
+
 }
 
 #skills >div>p{
-  border: 2px solid white;
+  border: 2px solid var(--ft-color1);
   padding: 5px;
   border-radius: 50px;
   text-align: center;
   font-size: larger;
+  color: var(--ft-color1);
 }
 
 #skills >div>p:hover{
-  border: 2px solid var(--ft-color1);
-  color: var(--ft-color1);
+  border: 2px solid var(--ft-color2);
+  color: var(--ft-color2);
   cursor: default;
 }
 
@@ -136,7 +153,7 @@ header{
   padding: 10px 0;
 }
 #preview>#preLink>a{
-  color: white;
+  color: var(--ft-color2);
 }
 #preview>#preLink>a:hover{
   color: var(--bg-color2);
@@ -157,6 +174,7 @@ header{
   background-color: var(--bg-color2);
   height: 400px;
   margin: 50px 0;
+  color: var(--ft-color1);
 }
 
 #contactLink{
@@ -172,13 +190,13 @@ header{
 }
 
 #contactLink>div>a{
-  color: white;
+  color: var(--ft-color1);
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 #contactLink>div>a:hover{
-  color: var(--ft-color1);
+  color: var(--ft-color2);
 }
 
 @media (max-width: 1000px) {
