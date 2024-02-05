@@ -126,6 +126,7 @@ header>h2{
   background-color: var(--bg-color2);
   align-items: center;
   justify-content: space-evenly;
+  margin-top: 25px;
 }
 
 #projects{
@@ -140,6 +141,9 @@ header>h2{
 
 #projects>#preview{
   align-self: center;
+  border: 7px solid var(--ft-color1);
+  border-radius: 30px;
+  margin: 10px 5px;
 }
 
 #preview >#dec{
@@ -168,7 +172,7 @@ header>h2{
   grid-template-areas: 
   "dec img"
   "dec link";
-  padding: 70px 0;
+  padding: 20px 5px;
 }
 
 #contacts{
@@ -214,6 +218,7 @@ header>h2{
   #projects>#preview{
     display: flex;
     flex-direction: column;
+    /* padding: 25px 0; */
   }
   #projects>#preview>#dec{
     display: flex;
@@ -238,6 +243,9 @@ header>h2{
     width: 90%;
     align-self: center;
     object-fit: scale-down;
+  }
+  #dec{
+    flex-direction: column;
   }
   #dec>h3{
     padding-right: 15px;
