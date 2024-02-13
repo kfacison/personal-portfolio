@@ -241,6 +241,9 @@ header>h2{
   #dec{
     flex-direction: column;
   }
+  #dec>p{
+    margin-bottom: 0;
+  }
   #dec>h3{
     padding-right: 15px;
   }

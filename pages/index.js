@@ -69,7 +69,7 @@ export default function Home() {
           <span id='dec'>
           <h3>Yahtzee</h3>
           <p style={{ maxWidth:365}}>
-          A dice game where you try to roll certain combinations of numbers with five dice. The project was made with HTML, CSS, and JavaScript.
+          I developed a dynamic dice game using HTML, CSS, and JavaScript, where players aim to roll specific combinations of numbers with five dice. Through HTML, I structured the game interface for intuitive user interaction, while CSS styling enhanced visual appeal. JavaScript algorithms simulated dice rolling, validated inputs, and computed scores.
           </p>
           </span>
           <Image 
@@ -88,7 +88,7 @@ export default function Home() {
           <span id='dec'>
           <h3>Recipe Repo</h3>
           <p style={{ maxWidth:365}}>
-          A full-stack application where users can store recipes. The App has Google oAuth and CRUD, made with Node, Express, and MongoDB.
+          I collaborated on the creation of a social networking application using the MERN (MongoDB, Express.js, React.js, Node.js) stack. This platform enables users to sign in, create posts, and establish connections with other users. The development process involved teamwork and contributions from fellow developers, ensuring a robust and feature-rich user experience. 
           </p>
           </span>
           <Image 
@@ -107,7 +107,7 @@ export default function Home() {
           <span id='dec'>
           <h3>SpaceBook</h3>
           <p style={{ maxWidth:365}}>
-          A social networking app where users can sign in, make posts, and connect with other users. The app uses a MERN Stack developed with the contribution of fellow developers.
+          A social networking app where users can sign in, make posts, and connect with other users. The app uses a MERN Stack developed with the contribution of fellow developers. During the development process, I acted as GitHub manager, assisted my team with merge requests, and maintained the main branch.
           </p>
           </span>
           <Image 
