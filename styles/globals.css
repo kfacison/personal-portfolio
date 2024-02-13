@@ -19,7 +19,6 @@ body {
   color: var(--ft-color2);
   display: flex;
   flex-direction: column;
-  /* align-items: center;*/
   margin: 0;
   
   overflow-x: hidden;
@@ -32,7 +31,7 @@ body {
 
 #navBar{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: var(--ft-color1); /* Black background color */
   position: fixed; /* Make it stick/fixed */
   top: 0; /* Stay on top */
@@ -75,7 +74,6 @@ header>h2{
 #about{
   display: flex;
   border-radius: 50px;
-  height: 500px;
   align-items: center;
   justify-content: center;
   min-width: 98.8vw;
@@ -208,9 +206,6 @@ header>h2{
 }
 
 @media (max-width: 1000px) {
-  body {
-    /* background-color: navy; */
-  }
   #about{
     flex-direction: column;
     margin: 25px 0;
@@ -229,11 +224,10 @@ header>h2{
 
 @media (max-width: 750px) {
   body {
-    /* background-color: forestgreen; */
     align-items: normal;
   }
   header{
-  padding: 50px 0;
+  padding-top: 50px;
   text-align: center;
   }
   #skills>div>p{
