@@ -58,7 +58,7 @@ export default function Home() {
         <p>Django </p>
         <p>Git</p>
         <p>GitHub</p>
-        <p>MathLab </p>
+        <p>MatLab </p>
         </div>
       </div>
 
