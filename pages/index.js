@@ -88,7 +88,7 @@ export default function Home() {
           <span id='dec'>
           <h3>Recipe Repo</h3>
           <p style={{ maxWidth:365}}>
-          I collaborated on the creation of a social networking application using the MERN (MongoDB, Express.js, React.js, Node.js) stack. This platform enables users to sign in, create posts, and establish connections with other users. The development process involved teamwork and contributions from fellow developers, ensuring a robust and feature-rich user experience. 
+          I developed a full-stack recipe management application utilizing Node.js, Express, and MongoDB. The app features Google OAuth integration for secure user authentication and CRUD functionality for seamless recipe management.
           </p>
           </span>
           <Image 
@@ -107,7 +107,7 @@ export default function Home() {
           <span id='dec'>
           <h3>SpaceBook</h3>
           <p style={{ maxWidth:365}}>
-          A social networking app where users can sign in, make posts, and connect with other users. The app uses a MERN Stack developed with the contribution of fellow developers. During the development process, I acted as GitHub manager, assisted my team with merge requests, and maintained the main branch.
+          I collaborated on the creation of a social networking application using the MERN (MongoDB, Express.js, React.js, Node.js) stack. This platform enables users to sign in, create posts, and establish connections with other users. The development process involved teamwork and contributions from fellow developers, ensuring a robust and feature-rich user experience. During the development process, I acted as GitHub manager, assisted my team with merge requests, and maintained the main branch.
           </p>
           </span>
           <Image 
