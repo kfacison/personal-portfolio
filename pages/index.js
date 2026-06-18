@@ -153,7 +153,7 @@ export default function Home() {
           </div>
 
           <div>
-            <Link href='/personal/Kylie_Facison_Resume 2.1.1(2024).pdf' target="_blank">
+            <Link href='/personal/Kylie_Facison_Resume 4.0.pdf' target="_blank">
             <Image 
             src="/icons/resume-2-white.png" 
             alt="Resume Icon" 
